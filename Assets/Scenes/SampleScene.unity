@@ -220,7 +220,6 @@ GameObject:
   - component: {fileID: 38330141}
   - component: {fileID: 38330140}
   - component: {fileID: 38330139}
-  - component: {fileID: 38330138}
   - component: {fileID: 38330137}
   m_Layer: 5
   m_Name: TextBox
@@ -266,34 +265,83 @@ MonoBehaviour:
   MrOgDialogueBox: {fileID: 0}
   dialogueText: {fileID: 1651007624}
   lines:
-  - 
-  textSpeed: 0.005
---- !u!114 &38330138
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 38330135}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd90c245fa2c908418e02974192a2258, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CopyNPCDialogue: {fileID: 0}
-  DialogueBox: {fileID: 0}
-  currentLineIndex: 0
-  dialogueText: {fileID: 1651007624}
-  lines:
-  - "Max: Hey, I saw that book you\u2019re reading, was trying to find it but no
-    luck, Can you give it to me please, I\u2019ll pay you 5 bucks."
-  - "Mr. Fraud: Could have given it to you but even I am reading this right now,
-    You can make a copy of this or buy it from Mr Og\u2019s shop."
-  - 'You have two options:   Option 1: Take the imitation book that costs 10 credits.  
-    Option 2: Embark on an adventure and travel 20 km to Mr. Og''s shop to get the
-    original book, which will cost you 100 credits. '
-  - 'Max: (Thinking) This is a big decision. The imitation book is cheaper, but I''ve
-    heard about the importance of originality. What should I do?'
+  - 'Mr. Og: Hello there. '
+  - 'Max: Hello, I was told that you had the original copy of the book.'
+  - "Mr. Og: Yeah, I have the original book and I am an authorized reseller for it.
+    You won\u2019t face any copyright infringement issues if you buy it from me.
+    Do you want it? "
+  - 'Max: Yes, I would like the book, but before that can you tell me what is copyright?'
+  - "Mr. Og: Ok, so let\u2019s start from the beginning. Copyright refers to the
+    legal right of the owner of intellectual property..."
+  - 'Mr. Og: In simpler terms, copyright is the right to copy. This means that the
+    original creators of products and anyone they give authorization to are the only
+    ones with the exclusive right to reproduce the work.'
+  - 'Max: Can you teach me more about copyright as I want to become an entrepreneur?'
+  - 'Mr. Og: Of course, Max! Understanding copyright is crucial for entrepreneurs
+    and creators. Let me delve a bit deeper. Copyright doesn''t just cover books;
+    it applies to any original creative work, like music, art, movies, and even software.'
+  - 'Max: So, if I create something, it automatically gets copyright protection?'
+  - 'Mr. Og: Not exactly, Max. Copyright protection is granted as soon as you create
+    something original and fixed in a tangible form. In other words, the moment you
+    write a story, compose a song, or draw a picture, it''s automatically copyrighted...'
+  - 'Mr. Og: However, to protect your rights, it''s a good idea to register your
+    work with the copyright office. This makes it easier to prove your ownership
+    if any legal issues arise.'
+  - 'Max: That sounds important. But what exactly are my rights as the copyright
+    holder?'
+  - 'Mr. Og: Great question, Max. As the copyright holder, you have several exclusive
+    rights, including the right to reproduce (make copies), distribute, perform,
+    and display your work. No one else can do these things without your permission.'
+  - 'Max: So, does that mean I can stop others from using my work in any way?'
+  - 'Mr. Og: Not necessarily, Max. Copyright also has a concept called "fair use."
+    It allows others to use your work under certain conditions, like for education,
+    criticism, or news reporting... '
+  - 'Mr. Og: It''s a balance between protecting your rights and allowing society
+    to benefit from creative works.'
+  - 'Max: That makes sense. But what if someone does use my work without permission?'
+  - 'Mr. Og: If that happens, you have legal recourse, Max. You can send them a cease-and-desist
+    letter, asking them to stop using your work without permission. If that doesn''t
+    work, you can take legal action and even sue for damages.'
+  - 'Max: Mr. Og, you mentioned exclusive rights as a copyright holder. What about
+    the duration of copyright protection?'
+  - 'Mr. Og: Ah, good question, Max. Copyright protection doesn''t last forever.
+    It has a limited duration. In most cases, for works created today, copyright
+    lasts for the life of the author plus 70 years... '
+  - 'Mr. Og: After that, the work enters the public domain, which means anyone can
+    use it without permission.'
+  - 'Max: That''s a long time. But what about works created by multiple people, like
+    collaborations?'
+  - 'Mr. Og: Great point, Max. When multiple authors collaborate on a work, the copyright
+    duration extends to the life of the last surviving author plus 70 years. So,
+    it''s essential to keep records of who contributed to a collaborative project.'
+  - 'Max: I see. What if I want to use someone else''s work in my own project, like
+    in a college presentation?'
+  - 'Mr. Og: That''s where the concept of "fair use" comes in again, Max. You can
+    use someone else''s work for educational purposes, criticism, commentary, or
+    news reporting without permission... '
+  - 'Mr. Og: But be careful not to use too much of it, and always give credit to
+    the original creator.'
+  - 'Max: What about the internet? Can I use anything I find online for my projects?'
+  - 'Mr. Og: Not necessarily, Max. Just because something is on the internet doesn''t
+    mean it''s free to use. Many works online are protected by copyright...'
+  - 'Mr. Og: It''s essential to check if the content has a Creative Commons license
+    or is explicitly labeled for reuse. Otherwise, you should ask for permission
+    from the creator.'
+  - 'Max: Thanks for clarifying that, Mr. Og. It''s a bit tricky to navigate, but
+    I want to do things the right way.'
+  - 'Mr. Og: That''s the right attitude, Max. Respecting copyright not only protects
+    creators but also ensures a fair and creative society. It''s all about finding
+    a balance between using others'' works and protecting your own.'
+  - 'Max: I''ll keep learning about copyright, Mr. Og. It''s such a valuable lesson
+    for an aspiring entrepreneur like me.'
+  - 'Mr. Og: I''m glad to hear that, Max. Feel free to ask if you have more questions
+    in the future. Knowledge is the key to success!'
+  - 'Max: No more questions sir, can I buy the book now? '
+  - 'Mr. Og: You are a curious child Max, I am ready to give this book at a discounted
+    price of 50 credits along with a spare key for the gate, only if you get me that
+    special coin up the staircase.'
+  - 'Mr. Og:  To reach there the lore will question you about your most recent curiosities.'
+  - 'Max: Challenge accepted, Mr. Og!?'
   textSpeed: 0.005
 --- !u!114 &38330139
 MonoBehaviour:
@@ -34612,15 +34660,18 @@ MonoBehaviour:
   currentLineIndex: 0
   dialogueText: {fileID: 556843849}
   lines:
-  - "Max: Hey, I saw that book you\u2019re reading, was trying to find it but no
-    luck, Can you give it to me please, I\u2019ll pay you 5 bucks."
-  - "Mr. Fraud: Could have given it to you but even I am reading this right now,
-    You can make a copy of this or buy it from Mr Og\u2019s shop."
-  - 'You have two options:   Option 1: Take the imitation book that costs 10 credits.  
-    Option 2: Embark on an adventure and travel 20 km to Mr. Og''s shop to get the
-    original book, which will cost you 100 credits. '
-  - 'Max: (Thinking) This is a big decision. The imitation book is cheaper, but I''ve
-    heard about the importance of originality. What should I do?'
+  - 'Max: Hi there! I noticed you''re reading that entrepreneurship book.'
+  - 'Frank: Yep, just started, and it''s got my attention.'
+  - 'Max: That''s awesome. I''m actually eager to explore the world of business and
+    entrepreneurship myself.'
+  - 'Frank: Ah, a fellow aspiring entrepreneur, I presume? Well, you''re in for a
+    treat! This book is like the secret sauce to kickstart your business journey.'
+  - 'Frank: You can either take this cheaper copy of the book that I printed for
+    10 credits and move on to the next level with this key...'
+  - 'Frank: Or you can get it from Mr. Og''s shop in the south-east to get the original
+    book, which will cost you 100 credits'
+  - 'Max: (Thinking)'
+  - '[To get the copy of the book press the UP ARROW or go meet Mr. Og]'
   textSpeed: 0.005
 --- !u!4 &1729609702 stripped
 Transform:
